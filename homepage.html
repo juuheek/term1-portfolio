@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="homepage">
+        <header>
+            <div class="nav">
+                <ul>
+                    <li><a class="Juhee" href="homepage.html">JUHEEKIM</a></li>
+                    <li><a href="aboutme.html">ABOUT</a></li>
+                    <li><a href="work.html">WORK</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><input type="button" id="dark_white" value="dark" onclick="
+                    var target= document.querySelector('body');
+                         if(this.value === 'dark'){
+                        target.style.backgroundColor='#676767';
+                            target.style.color='#FFFCF9';
+                            this.value='white';
+                            document.querySelector('h1').style.color='#FFFCF9';
+                            document.querySelector('.thinkidfit').style.color='#FFFCF9';
+                            document.querySelector('a:hover').style.color='#FFFCF9';
+                            documnet.querySelector('footer').style.backgroundColor='#B2BEB5';
+
+    
+                            
+                    }else{
+                                target.style.backgroundColor='#FFFCF9';
+                                    target.style.color=' #676767';
+                                    document.querySelector('h1').style.color='#676767';
+                                    document.querySelector('.thinkidfit').style.color='#676767';
+                                    this.value='dark';
+                                    }
+                    ">
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <div class="digitalpage">
+                <div class="digitaldesigncontainer">
+                    <h1>Digital<br>Designer</h1>
+                </div>
+                <div>
+                    <p class="introduction">I’m Juhee Kim, a student studying digital design <br>with
+                        a passion for photography, videography, and design.</p>
+                </div>
+            </div>
+            <div class="iconcontainer">
+                <ul>
+                    <li><a href="https://www.instagram.com/juuhee__/?hl=ko" target="_blank"><i
+                                class="fa fa-instagram icon"></i></a>
+                    </li>
+                    <li><a href="https://www.facebook.com/profile.php?id=100010825179628" target="_blank"><i
+                                class="fa fa-facebook-square icon"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCURivKhqYcn2b_EZkBTaowA?view_as=subscriber"
+                            target="_blank"><i class="fa fa-youtube-square icon"></i></a></li>
+                </ul>
+            </div>
+        </main>
+    </div>
+    <br>
+    <div class="aboutmepage">
+        <div class="morecontainer">
+            <p class="moreaboutme">MORE <br>ABOUT ME</p>
+        </div>
+        <br>
+        <div class="container1">
+            <div class="aboutmetext">
+                <div class="aboutmepara">HELLO,<br>
+                    I'm a student who thrives in learning UIUX design in BCIT. I am currently in Vancouver, BC. I'm
+                    looking to be a UX designer and always striving to be creative.
+                </div>
+            </div>
+            <div class="portrait"><img src="aboutmepic.jpg" class="portraitimg"></div>
+        </div>
+
+    </div>
+    <div class="container2">
+        <p class="thinkidfit">Think I'd be a good fit for your project?</p>
+        <p class="getintouch"><a id="getintouch" href="mailto:juuhee12@gmail.com">Get in touch &rarr;</a></p>
+    </div>
+    <div>
+        <div class="morecontainer">
+
+            <p class="workproject">WORK <br>PROJECT</p>
+        </div>
+        <div class="container3">
+            <div class="storytelling ">
+                <div class="worktitle">STORYTELLING</div><br><br>Based on an app created by second year, I wrote a
+                script that
+                has a core message for audience and drew a storyboard with my team. Based on storyboard, I edited a
+                video that delivers a story and promotes an app called homechefs.
+            </div>
+            <div class="videocontainer"> <video class="video" controls autoplay>
+                    <source src="video/HomeChefWithCredits.mp4" type="video/mp4">
+                </video>
+                <div class="commercialtext">STORYTELLING <br>
+                    <p class="description">Based on an app created by second year, I wrote a
+                        script that
+                        has a core message for audience and drew a storyboard with my team. Based on storyboard, I
+                        edited a
+                        video that delivers a story and promotes an app called homechefs.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container4">
+            <div class="commercial ">
+                <div class="worktitle">COMMERCIAL<br>WEBSITE DESIGN<br><br></div>
+                <div class="designfundamental">I plan and develop a business website that
+                    showcasese design elements and concepts covered in the design fundamental class</div>
+            </div>
+
+            <div class="imgcontainer">
+                <img class="commercialimg" src="commercialimg.png">
+
+                <div class="commercialtext">SPILL THE TEA <br>
+                    <p class="description">I plan and deveop a business website that
+                        showcasese design elements and concepts covered in the design fundamental class</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container5">
+            <p class="sendemail">Send me an email :) </p>
+
+            <form class="input" action="mailto:juuhee12@gmail.com" method="post" enctype="text/plain">
+                Name:<br>
+                <input class="inputborder" type="text" name="name"><br><br>
+                E-mail:<br>
+                <input class="inputborder" type="text" name="mail"><br><br>
+                Comment:<br>
+                <input class="inputborder" type="text" name="comment"><br><br>
+                <input type="submit" value="Send">
+                <input type="reset" value="Reset">
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="leftfooter">Contact +17789178181</div>
+        <div class="centerfooter">Email juuhee12@gmail.com</div>
+        <div class="rightfooter">&copy;Juhee Kim Design 2020</div>
+    </footer>
+</body>
+
+</html>

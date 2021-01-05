@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Portfolio</title>
+    <head>
+        <style>
+            body {
+                background-color: rgb(255, 255, 255);
+                align-items: center;
+            }
+            .portfolio{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 53px;
+            background-color: whitesmoke;
+            color:black;
+            text-align: center;
+            padding: 10px;
+        }
+
+
+        .topnav1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            text-align: center;
+            padding: 14px 16px;
+            padding-bottom: 15px;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 24px;
+            color: black;
+        }
+
+        .topnavlink{
+            padding: 14px 16px;
+            padding-bottom: 15px;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 24px;
+            color: black;
+        }
+
+        .topnavlink:hover{
+            color: black;
+            background-color: whitesmoke
+        }
+
+        .socialmedia{
+            text-decoration:none;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            background-color: whitesmoke;
+            color: black;
+            text-align: center;
+            padding-top: 40px;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-bottom: 2px;
+        }
+
+        .socialmedia a:hover{
+            color: black;
+        }
+
+        .copyright{
+            color: black;
+            text-align: left;
+            font-size: 15px;
+            font-weight: 5px;
+        }
+        
+.container {
+  position:relative;
+  width: 50%;
+  border-style: solid;
+  border-width: 1px;
+  flex-direction: row;
+  align-self: center;
+  margin: 0 auto;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: whitesmoke;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.div1{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  flex-direction: row;
+}
+
+.intro{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+            .intro {
+            width: 90vw;
+            padding-top: 20px;
+            padding-bottom: 0px;
+            padding-left: 0%;
+            padding-right: 0%;
+            }
+        }
+        </style>
+    </head>
+    <body>
+        <h1 class="portfolio">Portfolio</h1>
+        <hr>
+        <div class="topnav1">
+            <a class="topnavlink" href="file:///Users/alicia/Desktop/Home.html">HOME</a>
+            <a class="topnavlink" href="file:///Users/alicia/Desktop/aboutme.html">ABOUT ME</a>
+            <a class="topnavlink" href="file:///Users/alicia/Desktop/portfolio.html">PORTFOLIO</a>
+            <a class="topnavlink" href="file:///Users/alicia/Desktop/Contac.html">CONTACT</a>
+        </div>
+        <hr>
+
+        <div class="div1"> 
+
+            <p class="intro">Below are a few webpages I have coded using Visual Studio Code during my first semester
+                at BCIT. Hover over the images for short descriptions.
+            </p>
+
+        <div class="container">
+            <img src="file:///Users/alicia/Desktop/Screen%20Shot%202020-11-20%20at%2011.25.23%20PM.png" alt="My First Code" class="image">
+            <div class="overlay">
+              <div class="text">This is my first coding assignment at BCIT.</div>
+            </div>
+          </div>
+
+          <div class="div1">
+
+          <div class="container">
+            <img src="file:///Users/alicia/Desktop/Screen%20Shot%202020-11-20%20at%2011.36.09%20PM.png" alt="My Third Code" class="image">
+            <div class="overlay">
+              <div class="text">This is my Third coding assignment at BCIT.</div>
+            </div>
+          </div>
+
+          <div class="div1">
+
+                <div class="container">
+                    <img src="file:///Users/alicia/Desktop/Screen%20Shot%202020-11-20%20at%2011.13.05%20PM.png" alt="My Third Code" class="image">
+                    <div class="overlay">
+                      <div class="text">This is my one of my last coding assignments at BCIT.</div>
+                    </div>
+                  </div>
+
+                  <div class="div1"> 
+
+                  <div class="container">
+                    <img src="file:///Users/alicia/Desktop/Screen%20Shot%202020-11-20%20at%2011.42.04%20PM.png" alt="My Third Code" class="image">
+                    <div class="overlay">
+                      <div class="text">This webpage is my final coding project I have done in my first semester ay BCIT that is fully fuctional.</div>
+                    </div>
+                  </div>
+
+            <div class="div1">
+
+                <footer class="socialmedia">
+                    <img class="img" src="file:///Users/alicia/Desktop/twitter.png" alt="Twitter Icon" width="40" height="40">
+                    <img class="img" src="file:///Users/alicia/Desktop/discord.png" alt="Twitter Icon" width="40" height="40">
+                    <img class="img" src="file:///Users/alicia/Desktop/linkedin.png" alt="Twitter Icon" width="40" height="40">
+                    <img class="img" src="file:///Users/alicia/Desktop/instagram.png" alt="Twitter Icon" width="40" height="40">
+                    <img class="img" src="file:///Users/alicia/Desktop/facebook.png" alt="Twitter Icon" width="40" height="40">
+                    <p class="copyright">Copyright Alicia Yien</p>
+                </footer>
+    </body>
+</html>
